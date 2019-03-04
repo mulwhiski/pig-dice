@@ -73,7 +73,7 @@ function alertEndTurn(){
 }
 
 function alertWinner(playerNumber) {
-  alert("Player " + playerNumber + " is the BIG winner!!");
+  alert("Player " + playerNumber + " Winner!!");
   resetGame();
   $(".gameStatusDisplay").text(0);
 }
