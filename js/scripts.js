@@ -24,10 +24,10 @@ var playerRoll = function() {
   } else {
     pigGame.turnScore +=roll;
     if (pigGame.playerUp === 1) {
-      if (pigGame.turnScore + pigGame.player1Score >= 21) {
+      if (pigGame.turnScore + pigGame.Gamer1Score >= 21) {
         alertWinner(1);
       }
-    } else if (pigGame.turnScore + pigGame.player2Score >= 21) {
+    } else if (pigGame.turnScore + pigGame.Gamer2Score >= 21) {
       alertWinner(2);
   }
   }
@@ -37,9 +37,9 @@ var playerRoll = function() {
 function holdThePig() {
   var currentPlayer = pigGame.playerUp;
   if (currentPlayer ===1) {
-    pigGame.player1Score += pigGame.turnScore;
+    pigGame.Gamer1Score += pigGame.turnScore;
   } else {
-    pigGame.player2Score += pigGame.turnScore;
+    pigGame.Gamer2Score += pigGame.turnScore;
   }
   pigGame.turnScore = 0;
   switchPlayer();
@@ -58,8 +58,8 @@ function switchPlayer () {
 }
 
 function resetGame() {
-  pigGame.player1Score = 0;
-  pigGame.player2Score = 0;
+  pigGame.Gamer1Score = 0;
+  pigGame.Gamer2Score = 0;
   pigGame.playerUp = 1;
   pigGame.turnScore = 0;
 }
