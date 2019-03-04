@@ -1,25 +1,29 @@
-var player = {
-  gameNumber = function(number)
-  this.number = number;
-});
-
+function dice(){
+  return math.floor(math.random()*6) +1;
+}
 $(document).ready(function() {
-  $("button#roll").click(function(event) {
-    event.preventDefault()
-}
-$("roll").click(function() {
-  math.floor(math.random()*100) +1
-  if(math<2) {
-    alert(dice rolled 1)
-  });
-});
-roll: function() {
-  var die = object.create(die);
-  var roll = die.roll();
-  if (roll === 1){
-    this.over = true;
-    this.points = 0;
-  } else {
-    this.points += roll;
-}
-return roll;
+  $("#roll").click(function(){
+    var player1 = dice();
+    $("#name1-score").text(num1)
+    $("#c0-score").text(total)
+    var total=0;
+    var player1A= [dice()];
+
+    if(player1 == 1){
+      $(".btnhold").show();
+      $(".btnroll").hide();
+    }else{
+      player1A.forEach(function(num){
+        total += num;
+    });
+  }
+})
+
+      $("#roll").click(function(){
+        var player2 =dice();
+        $("#name2-score").text(num2)
+        if(player2 == 1){
+          $(".btnhold").show();
+          $(".btnroll").hide();
+        }
+      })
