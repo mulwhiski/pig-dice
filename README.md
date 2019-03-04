@@ -1,10 +1,10 @@
 # pig-dice
-####This is a simple dice game for two players its fun and interactive.
-####by Denis Marshall Mulwa
-##This is a dice game for two players where each player gets points depending on the rolled dice side.A player also has the optio of holding the dice and ending the game having the points cumulated.
-##Its available on my github page https://mulwhiski.github.io/pig-dice/ have fun and enjoy the game.
-##The project uses css for styling ,javascript for the front and back-end operations and finally html for the user interface.
-###MIT License
+This is a simple dice game for two players its fun and interactive.
+by Denis Marshall Mulwa
+This is a dice game for two players where each player gets points depending on the rolled dice side.A player also has the optio of holding the dice and ending the game having the points cumulated.
+Its available on my github page https://mulwhiski.github.io/pig-dice/ have fun and enjoy the game.
+The project uses css for styling ,javascript for the front and back-end operations and finally html for the user interface.
+MIT License
 
 Copyright (c) [2019] [Denis Marshall Mulwa]
 
